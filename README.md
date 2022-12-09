@@ -11,12 +11,12 @@ This mod does the following:
   - [X] Liquid Lunari
   - [X] Liquid Prisilite
   - [X] Liquid Xithricite
-- [ ] Adds centrifuge recipes to Frackin' Universe centrifuges for these liquids
-  - [ ] Liquid Lunari
+- [X] Adds centrifuge recipes to Frackin' Universe centrifuges for these liquids
+  - [X] Liquid Lunari
     - Yields Lunari Shard, crystal, carbon, CO2
-  - [ ] Liquid Prisilite
+  - [X] Liquid Prisilite
     - Yields Prism Shard, crystal, silicon, CO2
-  - [ ] Liquid Xithricite
+  - [X] Liquid Xithricite
     - Yields Xithricite ore, silicon, CO2
 - [ ] Adds conversion recipes to the Atomic Furnace for these liquids
 - [ ] Adds research recipes to the research system for these liquids

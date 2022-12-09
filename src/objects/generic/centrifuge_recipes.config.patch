@@ -1,0 +1,45 @@
+[
+  /*
+  Note: Centrifuges only ever spawn 1 item per input. The second index after the commonality is not a spawn count, but instead
+  the divisor of the occurrance. i.e.: makes it even rarer than it already is. See: /objects/bees/centrifuge.lua, method `update(dt)`
+  */
+  /*
+  Example rates from gas centrifuge:
+      "itemChances": {
+        "rarest": 0.012,
+        "rare": 0.032,
+        "uncommon": 0.09,
+        "normal": 0.22,
+        "common": 0.32
+      },
+  */
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/molten-lunari",
+    "value" : {
+      "fu_carbon": ["rare", 2],
+      "crystal": ["rare", 2],
+      "fu_carbondioxide": ["uncommon", 2],
+      "solarishard": ["uncommon", 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/molten-prisilite",
+    "value" : {
+      "ff_silicon": ["rare", 2],
+      "crystal": ["rare", 2],
+      "fu_carbondioxide": ["uncommon", 3],
+      "prisiliteore": ["uncommon", 2]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/molten-xithricite",
+    "value" : {
+      "ff_silicon": ["rare", 2],
+      "fu_carbondioxide": ["uncommon", 3],
+      "xithriciteore": ["uncommon", 2]
+    }
+  }
+]

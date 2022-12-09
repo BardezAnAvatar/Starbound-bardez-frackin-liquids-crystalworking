@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "molten-lunari", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "solaricrystal",
+    "count" : 1
+  },
+  "duration" : 0.2,
+  "groups" : [
+    "craftingfurnace", "coalesce",
+    "nouncrafting", "norecycling" //both of these prevent un-crafting in other mods
+  ]
+}

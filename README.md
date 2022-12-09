@@ -25,9 +25,7 @@ This mod does the following:
     - [X] Prisilite
   - [X] Fission Furnace
     - [X] Xithricite 
-- [ ] Adds research recipes to the research system for these liquids
-  - [ ] Liquid Lunari
-  - [ ] Liquid Prism
-  - [ ] Liquid Xithricite
-- [ ] Adds liquid mixing reactions
-  - [ ] TODO: what reactions do I want to add?
+- [X] Adds research recipes to the research system for these liquids
+  - [X] Liquid Lunari
+  - [X] Liquid Prism
+  - [X] Liquid Xithricite

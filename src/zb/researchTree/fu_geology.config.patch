@@ -24,7 +24,7 @@
       "icon" : "/items/liquids/molten-prisilite.png",
       "children" : [ ],
       "position" : [-63, -80],
-      "price" : [["fuscienceresource", 2500], ["prisilitestar", 3]],
+      "price" : [["fuscienceresource", 4000], ["prisilitestar", 3]],
       "unlocks" : [ "molten-prisilite" ]
     }
   },
@@ -32,6 +32,23 @@
     "op" : "add",
     "path" : "/researchTree/fu_geology/metals_prisilite/children/-",
     "value" : "liquid_prisilite"
+  },
+  //liquid Xithricite
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_xithricite",
+    "value" : {
+      "icon" : "/items/liquids/molten-xithricite.png",
+      "children" : [ ],
+      "position" : [-63, -120],
+      "price" : [["fuscienceresource", 6000], ["xithricitecrystal", 3]],
+      "unlocks" : [ "molten-xithricite" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_xithricite/children",
+    "value" : [ "liquid_xithricite" ]
   },
   //strings
   {
@@ -44,6 +61,11 @@
     "path" : "/strings/research/liquid_prisilite",
     "value" : [ "Molten Prisilite", "^orange;Tier 4^reset;\n\n^cyan;Prisilite^reset;, heated to its melting point.\n\nPrisilite can accept and maintain electric charge, but will not discharge unless exposed to abrupt change in pressure or blunt force.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
   },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_xithricite",
+    "value" : [ "Molten Xithricite", "^orange;Tier 6^reset;\n\n^cyan;Xithricite^reset;, heated to its melting point.\n\nXithricite is a crystal with strong environmental associations with aether. The crystal displays stong metallic tendencies despite being more \"crystalline\" than \"metallic\" as described by most laypersons.\n\nRequires a ^orange;Fission Furnace^reset; to smelt." ]
+  },
   //acronyms
   {
     "op" : "add",
@@ -54,5 +76,10 @@
     "op" : "add",
     "path" : "/acronyms/fu_geology/FRACRYSLIQ02",
     "value" : "liquid_prisilite"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/FRACRYSLIQ03",
+    "value" : "liquid_xithricite"
   }
 ]

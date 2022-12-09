@@ -18,7 +18,7 @@ This mod does the following:
     - Yields Prism Shard, crystal, silicon, CO2
   - [X] Liquid Xithricite
     - Yields Xithricite ore, silicon, CO2
-- [ ] Adds conversion recipes to the Atomic Furnace for these liquids
+- [ ] Adds conversion recipes to the Furnaces for these liquids
 - [ ] Adds research recipes to the research system for these liquids
   - [ ] Liquid Lunari
   - [ ] Liquid Prism

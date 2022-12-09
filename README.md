@@ -26,7 +26,7 @@ This mod does the following:
   - [X] Fission Furnace
     - [X] Xithricite 
 - [ ] Adds research recipes to the research system for these liquids
-  - [ ] Liquid Lunari
+  - [X] Liquid Lunari
   - [ ] Liquid Prism
   - [ ] Liquid Xithricite
 - [ ] Adds liquid mixing reactions

@@ -1,0 +1,31 @@
+[
+  //liquid lunari
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_lunari",
+    "value" : {
+      "icon" : "/items/liquids/molten-lunari.png",
+      "children" : [ ],
+      "position" : [-63, -40],
+      "price" : [["fuscienceresource", 2500], ["solaricrystal", 3]],
+      "unlocks" : [ "molten-lunari" ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_lunari/children/-",
+    "value" : "liquid_lunari"
+  },
+  //strings
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_lunari",
+    "value" : [ "Molten Lunari", "^orange;Tier 2.5^reset;\n\n^cyan;Lunari^reset;, heated to its melting point.\n\nLunari is a particularly useful material for storing energy, and has been used as a thermal battery in its molten form.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
+  },
+  //acronyms
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/FRACRYSLIQ01",
+    "value" : "liquid_lunari"
+  }
+]

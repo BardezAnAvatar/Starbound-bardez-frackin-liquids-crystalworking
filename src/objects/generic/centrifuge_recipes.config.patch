@@ -32,5 +32,14 @@
       "fu_carbondioxide": ["uncommon", 3],
       "prisiliteore": ["uncommon", 2]
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/molten-xithricite",
+    "value" : {
+      "ff_silicon": ["rare", 2],
+      "fu_carbondioxide": ["uncommon", 3],
+      "xithriciteore": ["uncommon", 2]
+    }
   }
 ]

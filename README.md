@@ -19,6 +19,12 @@ This mod does the following:
   - [X] Liquid Xithricite
     - Yields Xithricite ore, silicon, CO2
 - [ ] Adds conversion recipes to the Furnaces for these liquids
+  - [X] Primitive Furnace
+    - [X] Lunari
+  - [ ] Atomic Furnace
+    - [ ] Prisilite
+  - [ ] Fission Furnace
+    - [ ] Xithricite 
 - [ ] Adds research recipes to the research system for these liquids
   - [ ] Liquid Lunari
   - [ ] Liquid Prism

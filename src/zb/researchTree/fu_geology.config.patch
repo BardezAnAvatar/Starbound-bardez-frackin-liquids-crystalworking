@@ -16,16 +16,43 @@
     "path" : "/researchTree/fu_geology/metals_lunari/children/-",
     "value" : "liquid_lunari"
   },
+  //liquid Prisilite
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_prisilite",
+    "value" : {
+      "icon" : "/items/liquids/molten-prisilite.png",
+      "children" : [ ],
+      "position" : [-63, -80],
+      "price" : [["fuscienceresource", 2500], ["prisilitestar", 3]],
+      "unlocks" : [ "molten-prisilite" ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_prisilite/children/-",
+    "value" : "liquid_prisilite"
+  },
   //strings
   {
     "op" : "add",
     "path" : "/strings/research/liquid_lunari",
     "value" : [ "Molten Lunari", "^orange;Tier 2.5^reset;\n\n^cyan;Lunari^reset;, heated to its melting point.\n\nLunari is a particularly useful material for storing energy, and has been used as a thermal battery in its molten form.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
   },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_prisilite",
+    "value" : [ "Molten Prisilite", "^orange;Tier 4^reset;\n\n^cyan;Prisilite^reset;, heated to its melting point.\n\nPrisilite can accept and maintain electric charge, but will not discharge unless exposed to abrupt change in pressure or blunt force.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
+  },
   //acronyms
   {
     "op" : "add",
     "path" : "/acronyms/fu_geology/FRACRYSLIQ01",
     "value" : "liquid_lunari"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/FRACRYSLIQ02",
+    "value" : "liquid_prisilite"
   }
 ]

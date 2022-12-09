@@ -27,7 +27,7 @@ This mod does the following:
     - [X] Xithricite 
 - [ ] Adds research recipes to the research system for these liquids
   - [X] Liquid Lunari
-  - [ ] Liquid Prism
+  - [X] Liquid Prism
   - [ ] Liquid Xithricite
 - [ ] Adds liquid mixing reactions
   - [ ] TODO: what reactions do I want to add?

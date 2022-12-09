@@ -21,8 +21,8 @@ This mod does the following:
 - [ ] Adds conversion recipes to the Furnaces for these liquids
   - [X] Primitive Furnace
     - [X] Lunari
-  - [ ] Atomic Furnace
-    - [ ] Prisilite
+  - [X] Atomic Furnace
+    - [X] Prisilite
   - [ ] Fission Furnace
     - [ ] Xithricite 
 - [ ] Adds research recipes to the research system for these liquids

@@ -29,5 +29,3 @@ This mod does the following:
   - [X] Liquid Lunari
   - [X] Liquid Prism
   - [X] Liquid Xithricite
-- [ ] Adds liquid mixing reactions
-  - [ ] TODO: what reactions do I want to add?
